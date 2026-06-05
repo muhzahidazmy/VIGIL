@@ -10,9 +10,9 @@
 
 [Interface](https://img.shields.io/badge/UI-Interactive_TUI-FF69B4?style=for-the-badge)
 
-[Contributors](https://img.shields.io/github/contributors/ForwardEcho/VIGIL?style=for-the-badge)
+[Contributors](https://img.shields.io/github/contributors/muhzahidazmy/VIGIL?style=for-the-badge)
 
-[Issues](https://img.shields.io/github/issues/ForwardEcho/VIGIL?style=for-the-badge)
+[Issues](https://img.shields.io/github/issues/muhzahidazmy/VIGIL?style=for-the-badge)
 
 ---
 
@@ -236,15 +236,15 @@ The developers and maintainers of VIGIL assume no responsibility for misuse, una
 
 ### **Project Information**
 
-- **Maintainer**: [ForwardEcho](https://github.com/ForwardEcho)
+- **Maintainer**: [muhzahidazmy](https://github.com/muhzahidazmy)
 - **License**: [MIT License](https://file+.vscode-resource.vscode-cdn.net/f%3A/Cyber%20Security%20Project/vigil/LICENSE)
-- **Repository**: [GitHub Project](https://github.com/ForwardEcho/VIGIL)
+- **Repository**: [GitHub Project](https://github.com/muhzahidazmy/VIGIL)
 
 ### **Community & Support**
 
-- **Issues**: [Bug Reports & Feature Requests](https://github.com/ForwardEcho/VIGIL/issues)
-- **Discussions**: [Community Forum](https://github.com/ForwardEcho/VIGIL/discussions)
-- **Documentation**: [Wiki](https://github.com/ForwardEcho/VIGIL/wiki)
+- **Issues**: [Bug Reports & Feature Requests](https://github.com/muhzahidazmy/VIGIL/issues)
+- **Discussions**: [Community Forum](https://github.com/muhzahidazmy/VIGIL/discussions)
+- **Documentation**: [Wiki](https://github.com/muhzahidazmy/VIGIL/wiki)
 
 ### **Contribution Guidelines**
 
