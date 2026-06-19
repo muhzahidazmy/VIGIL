@@ -864,12 +864,13 @@ def detect_udp_flood(packet, now, alert_threshold):
 def detect_icmp_flood(packet, now, alert_threshold):
     if IP in packet and ICMP in packet:
         # Check for Echo Request (type 8)
-        if packet[ICMP].type == 8:
+        if packet[ICMP].type in [0, 8]:
             src = packet[IP].src
             entries = icmp_counter.get(src, [])
             entries = [t for t in entries if now - t <= 10]
             entries.append(now)
             icmp_counter[src] = entries
+
 
             if len(entries) >= alert_threshold:
                 msg = f"Src {src} ({len(entries)} ICMPs in 10s)"
@@ -1033,9 +1034,9 @@ def main():
         else:
             print(f"Scanning {target} at time {timestamp}")
     if RICH_AVAILABLE:
-        console.print("[dim]Visit : https://github.com/ForwardEcho[/]\n")
+        console.print("[dim]Visit : https://github.com/muhzahidazmy[/]\n")
     else:
-        print(f"Visit : https://github.com/ForwardEcho\n")
+        print(f"Visit : https://github.com/muhzahidazmy\n")
 
     if display_iface:
         show_interfaces()
